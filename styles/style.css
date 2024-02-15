@@ -183,3 +183,56 @@
   padding: 15px 20px;
   margin-top: 25px;
 }
+
+/* offer */
+#offer {
+  margin: 100px 0;
+}
+.offer-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+.best-offer {
+  width: 30%;
+}
+.best-offer h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.best-offer h5 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+.best-offer p,
+.offer-year p {
+  color: #07021199;
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 32px;
+}
+.offer-year {
+  width: 30%;
+}
+.offer-year h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.offer-year img {
+  margin-top: 10px;
+}
+
+.offer-img {
+  background-image: url("../images/");
+}
