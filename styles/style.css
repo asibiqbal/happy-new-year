@@ -54,14 +54,14 @@
   margin: 0 200px;
 }
 
-/* Offer Section */
-#offer {
+/* discount Section */
+#discount {
   margin: 100px 0;
   text-align: center;
   text-transform: uppercase;
 }
 
-#offer h3 {
+#discount h3 {
   color: #f00;
   font-size: 96px;
   font-weight: 700;
@@ -69,14 +69,14 @@
   font-family: Inter;
 }
 
-#offer p {
+#discount p {
   color: #f00;
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 5px;
   font-family: Inter;
 }
-#offer h4 {
+#discount h4 {
   color: #070211;
   font-size: 48px;
   font-weight: 700;
@@ -92,6 +92,7 @@
   min-height: 100vh;
   position: relative;
   display: flex;
+  border-radius: 16px;
 }
 .party-overlay {
   position: absolute;
@@ -145,4 +146,40 @@
 }
 .party-img {
   width: 50%;
+}
+
+/* Schedule */
+#schedule {
+  margin: 100px 0;
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  padding: 80px 0 0px 0;
+}
+#schedule p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+#schedule span {
+  color: #f00;
+  font-family: inter;
+}
+#schedule button {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background: #f00;
+  border: none;
+  padding: 15px 20px;
+  margin-top: 25px;
 }
