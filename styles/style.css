@@ -83,3 +83,66 @@
   font-family: Inter;
   margin-bottom: 30px;
 }
+
+/* Party */
+#party {
+  background-image: url("../images/Vectorrr.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+}
+.party-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+}
+.party-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.party-content {
+  position: relative;
+  z-index: 1;
+  width: 50%;
+}
+.party-content h3 {
+  color: white;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+}
+.party-content p {
+  color: #ffffffcc;
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 30px 0;
+}
+.party-content button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 150px;
+  height: 50px;
+}
+.party-content button:hover {
+  border: 1px solid white;
+  border-radius: 5%;
+  transition: 0.5s ease-in-out;
+}
+.party-img {
+  width: 50%;
+}
