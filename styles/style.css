@@ -127,23 +127,7 @@
   line-height: 30px;
   margin: 30px 0;
 }
-.party-content button {
-  background-color: transparent;
-  border: none;
-  color: white;
-  cursor: pointer;
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
-  width: 150px;
-  height: 50px;
-}
-.party-content button:hover {
-  border: 1px solid white;
-  border-radius: 5%;
-  transition: 0.5s ease-in-out;
-}
+
 .party-img {
   width: 50%;
 }
@@ -171,7 +155,7 @@
   color: #f00;
   font-family: inter;
 }
-#schedule button {
+.section-button {
   color: #fff;
   font-family: Inter;
   font-size: 20px;
@@ -180,8 +164,15 @@
   border-radius: 8px;
   background: #f00;
   border: none;
-  padding: 15px 20px;
+  width: 150px;
+  height: 50px;
   margin-top: 25px;
+  cursor: pointer;
+}
+.section-button:hover {
+  background: transparent;
+  border: 1px solid #f00;
+  color: #f00;
 }
 
 /* offer */
@@ -191,7 +182,8 @@
 .offer-container {
   display: flex;
   justify-content: space-around;
-  gap: 40px;
+  align-items: center;
+  gap: 80px;
 }
 .best-offer {
   width: 30%;
@@ -230,9 +222,55 @@
 }
 
 .offer-year img {
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .offer-img {
-  background-image: url("../images/");
+  border: 10px solid #f00;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+/* Portfolio */
+#portfolio {
+  margin: 100px 0;
+}
+#portfolio h5 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+#portfolio h4 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 15px 0;
+}
+
+#portfolio p {
+  color: #07021199;
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+.portfolio-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.portfolio-items img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease; /* Add transition for smooth animation */
+}
+
+.portfolio-items img:hover {
+  transform: scale(1.1); /* Increase scale on hover */
+  cursor: pointer;
 }
